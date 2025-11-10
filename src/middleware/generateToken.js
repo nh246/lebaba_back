@@ -11,7 +11,7 @@ const generateToken = async (userId) => {
     }
     const token = jwt.sign(
       { userId: user._id, role: user.role },
-      JWT_SECRET,{ expiresIn: "1h" }
+      JWT_SECRET,{ expiresIn: "5h" }
     );
     return token;
   } catch (error) {
