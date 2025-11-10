@@ -9,7 +9,7 @@ const bodyParser = require("body-parser");
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173",],
+    origin: ["http://localhost:5173","https://lebaba-front.vercel.app"],
     credentials: true,
   })
 );
