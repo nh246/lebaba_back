@@ -1,7 +1,0 @@
-the .env file
-
-STRIPE_SECRET_KEY="sk_test_51SPmfRE7QaqLawjokx5SYkJ9Wb9MDNYGQVJpNp2oKzzjHHQwAaMuDpvXxH76PMXtXtZow9MC6QFXzsUuojqu4s3x00D8yHPvmZ"
-
-JWT_SECRET_KEY="81b279f4917ddc70c0a3a8da057f9a4530cc6702b1b50d967071699f9a3bf10372552c670291a62d137dba3a196130c7d6ce9276a784a783c4c4ca386f36922"
-
-UB_URL="mongodb+srv://testnhdev02_db_user:llgNOfIyco1Ctwjw@cluster0.m0atayf.mongodb.net/lebaba-ecommerce?retryWrites=true&w=majority"
