@@ -6,7 +6,7 @@ const successResponse = (res, statusCode, message, data = {}) => {
   });
 };
 
-const errorResponse = (res, statusCode, message, error = nul) => {
+const errorResponse = (res, statusCode, message, error = null) => {
   console.error(error);
   res.status(statusCode).send({
     success: false,
